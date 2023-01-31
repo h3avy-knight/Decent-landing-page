@@ -1,0 +1,115 @@
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 3rem;
+}
+.border_vertical {
+  border-right: 1px solid rgb(63, 62, 62);
+}
+.main__container {
+  border: 3px solid #0370dd;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 24px;
+}
+/* .main__container-col-1 {
+  padding: 10px 10px;
+  flex: 1;
+} */
+.main__container-col-1-education {
+  padding: 30px 50px;
+}
+.input {
+  padding: 16px 15px;
+  color: #bfbfbf;
+  font-size: 24px;
+  background: #ffffff;
+  border: 3px solid #999999;
+  box-shadow: 0px 13px 28px rgba(0, 46, 92, 0.1),
+    0px 0px 0px rgba(0, 46, 92, 0.1);
+  border-radius: 11px;
+}
+
+.utils {
+  width: 470px;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.utils .relative {
+  color: #707784;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.textarea {
+  padding: 16px;
+  color: #bfbfbf;
+  /* width: 100%; */
+  color: #bfbfbf;
+  background: #ffffff;
+  border: 3px solid #999999;
+  margin-bottom: 35px;
+  box-shadow: 0px 13px 28px rgba(0, 46, 92, 0.1),
+    0px 0px 0px rgba(0, 46, 92, 0.1);
+  border-radius: 11px;
+}
+.utils_last {
+  width: 470px;
+  /* height: 152px; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.utils_last .area_relative {
+  color: #707784;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.generate {
+  background: #0370dd;
+  border-radius: 8px;
+  padding: 16px 40px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+.main__container-col-2 {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-container p {
+  text-align: center;
+  font-size: 22px;
+  color: #bfbfbf;
+}
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 736px) {
+  .main__container-col-1-education {
+    width: 100%;
+  }
+  .border_vertical {
+    display: none;
+  }
+  .main__container-col-2 {
+    display: none;
+  }
+}
